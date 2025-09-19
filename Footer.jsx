@@ -9,7 +9,7 @@ const Footer = () => {
 
                     {/* Tech-Shop Section */}
                     <div className="col-md-3">
-                        <h5 className="text-danger mb-3"><link to="/">Tech-Shop</link></h5>
+                        <h5 className="text-danger mb-3">Tech-Shop</h5>
                         <p className="mb-3">Subscribe for early discounts and product alerts</p>
                         <div className="input-group">
                             <input type="email" className="form-control" placeholder="Email Address*" />
@@ -71,6 +71,7 @@ const Footer = () => {
         </footer>
     )
 };
+
 
 
 export default Footer;
