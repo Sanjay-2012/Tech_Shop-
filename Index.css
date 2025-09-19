@@ -1,0 +1,36 @@
+.hero-section {
+  min-height: 100vh;
+  background-color: #121212;
+}
+
+.hero-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ff3c3c;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+.featured-img {
+  width: 100%;
+  max-width: 180px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.slick-center .featured-img {
+  transform: scale(1.1); 
+}
+
+.slick-slide {
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
